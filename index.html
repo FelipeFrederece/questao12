@@ -1,0 +1,62 @@
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>&nbsp Questão12 &nbsp</title>
+
+
+      <style>
+        body{
+          background-color: grey;
+        }
+
+        .nome {
+          width: fit-content;
+          height: auto;
+          background-color: aqua;
+          margin-left: 10vw;
+          margin-top: 20vh;
+          cursor: pointer;
+          border-radius: 50px;
+        }
+      </style>
+      
+   </head>
+   <body>
+      <div>
+        <h1>INFORME OS NÚMEROS PARA SOMAR</h1>
+      </div>
+      <input type="number" required id="numero1">
+      <input type="number" required id="numero2">
+
+
+
+      <div class="nome" onclick="funcao1()">
+        
+        <h1>resposta</h1>  
+
+      </div>
+
+      resposta <input id="resposta">
+
+      </div>
+
+   </body>
+   <script>
+
+  
+     
+     function funcao1(){
+      var numero1= document.getElementById("numero1").value;
+      var numero2 = document.getElementById("numero2").value;
+
+      parseFloat
+  
+      var resposta = numero1+numero2;
+
+
+      document.getElementById("resposta").value = resposta;
+     }
+    
+   </script>
+
+</html>
